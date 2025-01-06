@@ -51,6 +51,31 @@ public static double multiply(double a, double b) {
 
         double result;
 
+
+        switch (choice) {
+            case 1:
+                result = add(num1, num2);
+                System.out.println("Result: " + result);
+                break;
+            case 2:
+                result = subtract(num1, num2);
+                System.out.println("Result: " + result);
+                break;
+            case 3:
+                result = multiply(num1, num2);
+                System.out.println("Result: " + result);
+                break;
+            case 4:
+                result = divide(num1, num2);
+                if (num2 != 0) {
+                    System.out.println("Result: " + result);
+                }
+                break;
+            default:
+                System.out.println("Invalid choice. Please select a valid operation.");
+        }
+
+
         
     }
 }
