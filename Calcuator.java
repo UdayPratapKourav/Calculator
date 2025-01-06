@@ -22,6 +22,15 @@ public static double multiply(double a, double b) {
 }
 
 
+ // Method to divide two numbers
+ public static double divide(double a, double b) {
+    if (b == 0) {
+        System.out.println("Error: Division by zero is not allowed.");
+        return 0;
+    }
+    return a / b;
+}
+
     public static void main(String[] args) {
         System.out.println("welcome to my calculator::");
         Scanner sc = new Scanner(System.in);
