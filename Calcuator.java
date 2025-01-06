@@ -3,6 +3,14 @@ package Calculator;
 import java.util.Scanner;
 
 public class Calcuator {
+
+
+ // Method to add two numbers
+ public static double add(double a, double b) {
+    return a + b;
+}
+
+
     public static void main(String[] args) {
         System.out.println("welcome to my calculator::");
         Scanner sc = new Scanner(System.in);
